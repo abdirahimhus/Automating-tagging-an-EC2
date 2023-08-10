@@ -1,9 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2023-08-10T06:45:30.335Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" version="21.6.7" etag="fA542GvBvrVuvm9jeSPK" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-10T06:59:13.145Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" etag="T6sok5dy45ur_eIN7f0i" version="21.6.7" type="github">
   <diagram name="Page-1" id="9sVOfhHkYw22SVsHzjD5">
-    <mxGraphModel>
+    <mxGraphModel dx="1194" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="221UVbnK4NouI1JwhKZL-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="221UVbnK4NouI1JwhKZL-1" target="221UVbnK4NouI1JwhKZL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="221UVbnK4NouI1JwhKZL-1" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="407.5" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="221UVbnK4NouI1JwhKZL-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="221UVbnK4NouI1JwhKZL-2" target="221UVbnK4NouI1JwhKZL-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="688" y="218" />
+              <mxPoint x="148" y="218" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="221UVbnK4NouI1JwhKZL-2" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="730" y="400" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="221UVbnK4NouI1JwhKZL-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.026;entryY=0.581;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="221UVbnK4NouI1JwhKZL-3" target="221UVbnK4NouI1JwhKZL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="221UVbnK4NouI1JwhKZL-3" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#FF4F8B;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.eventbridge;" vertex="1" parent="1">
+          <mxGeometry x="400" y="415" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="221UVbnK4NouI1JwhKZL-19" value="Add user tag to EC2 instance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="374.5" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="221UVbnK4NouI1JwhKZL-23" value="On EC2 creation match event rule" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="221UVbnK4NouI1JwhKZL-24" value="Trigger a lambda to capture data and process" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="400" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="221UVbnK4NouI1JwhKZL-25" value="EC2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="510" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="221UVbnK4NouI1JwhKZL-26" value="EventBridge" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="498" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="221UVbnK4NouI1JwhKZL-27" value="Lambda" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="715" y="498" width="70" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
